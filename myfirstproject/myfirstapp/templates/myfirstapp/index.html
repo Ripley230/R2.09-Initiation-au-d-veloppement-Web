@@ -5,6 +5,7 @@
     <title>index</title>
 </head>
 <body>
+{% extends "myfirstapp/main.html" %}
 {% if nom and prenom and age is not None %}
     <h1> My first dynamic webpage</h1>
     <p> Hello {{nom}} {{prenom}} you are {{age}} year old </p>
